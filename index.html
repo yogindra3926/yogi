@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+        .hero{
+            background-image: url(image\ 4.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            min-height: 100vh;
+        }
+        html,body{
+            line-height: 1.4;
+            font-weight: 300;
+        }
+        .textu{max-width: 900px;
+            color: white;
+            margin: 0px auto;
+            padding-top: 20px;
+            padding-left: 10px;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            font-size: 50px;
+        }
+        h2{
+            text-transform: lowercase;
+            font-size: 30px;
+        }
+.yo{
+    font-size: 72px;
+}
+.sec_2{
+    background-color: black;
+    font-size: 63px;
+    color: white;
+    padding: 46px 30px;
+    /* justify-content: center; */
+    text-align: center;
+}
+.you{
+    font-size: 100px;
+}
+.work{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+
+}
+.card{
+    max-width: 320px;
+    height: 386px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(1, 1,1, 0.2);
+    transition: 0.3s ease-in-out;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.grid_item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.inform_{
+    padding: 20px;
+}
+h1{
+    margin-bottom: 10px;
+}
+.card:hover{
+    transform: scale(1.04);
+    transition: 0.3s ease-in-out;
+}
+.bottom_{
+    display: flex;
+    
+}
+.contact{
+    background-color: green;
+    min-height: 150px;
+    padding: 30px;
+    color: white;
+}
+.about{
+    background-color: black;
+    min-height: 300px;
+    padding: 30px;
+    color: white;
+}
+h5{
+    font-size: 40px;
+    font-weight: 400;
+}
+.bottom_ p{
+    margin-bottom: 10px;
+}
+footer{
+    text-align: center;
+    background-color: beige;
+    font-size: 40px;
+}
+.haha{
+    font-size: 60px;
+    padding: 20px;
+}
+@media (max-width: 786px){
+    .hero{
+        min-height: 50vh;
+    }
+}
+    </style>
+</head>
+<body>
+    <section class="hero">
+        <div class="textu">
+            <h2><span class="yo">hi</span>,i am yogi</h2>
+            <h4>full stack developer</h4>
+
+        </div>
+    </section>
+    <section class="sec_2">
+        work i can do for,<span class="you">YOU</span>
+        
+    </section>
+    <section class="work">
+        <div class="grid_item"><section class="card">
+            <div class="imageu1_">
+                <img src="image 5.jpg" alt="">
+            </div>
+            <div class="inform_">
+                <h1>APP DEVELOPMENT</h1>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique iure vero, eaque numquam porro quaerat error? Minima reprehenderit est quae.</P>
+                <p></p>
+            </div>
+          </section></div>
+          <div class="grid_item"> <section class="card">
+            <div class="imageu2_">
+                <img src="image 6.jpg" alt="">
+            </div>
+            <div class="inform_">
+                <h1>UX DESIGN</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt blanditiis eum voluptatibus, a error amet fugit autem! Dignissimos, odit.
+                </p>
+            </div>
+          </section></div>
+         <div class="grid_item"><section class="card">
+            <div class="imageu3_">
+                <img src="image 7.jpg" alt="">
+            </div>
+            <div class="inform_">
+                <h1>WEB DEVELOPMENT</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis doloremque reprehenderit nesciunt totam. Enim ad ipsum omnis placeat pariatur rerum. Suscipit!</p>
+            </div>
+          </section></div>
+          
+    </section>
+    <section class="bottom_">
+        <div class="contact">
+<h5>CONTACT US</h5>
+<p>Lorem ipsum dolor sm unde laborum cupiditate fugit laboriosam, minus rerum accusamus consequuntur, nihil, eveniet earum. Labore obcaecati hic beatae, modi nam omnis.</p>
+
+        </div>
+        <div class="about">
+<h5>ABOUT US</h5>
+<p> COLLEGE : IIIT ALLAHABAD
+    </p>
+<P> 
+    EMAIL : IEC2022070@IIITA.AC.IN
+</P>
+<P>
+    GITHUB USERNAME:yogindra3926
+</P>
+    <P>
+
+    </P>
+    
+        </div>
+    </section>
+    <footer>
+        PROJECT BY<span class="haha">YOGI</span>
+    </footer>
+</body>
+</html>
